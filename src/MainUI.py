@@ -276,12 +276,7 @@ class Login_Page(tk.Frame):
         self.mainframe = tk.Frame(self)
         # The Design Aspect of the frame
 
-        img = ImageTk.PhotoImage(Image.open("../favicon/logo.png"))
-        imglbl = tk.Label(self.mainframe , image = img)
-        imglbl.image = img
-        #imglbl.place(x=0, y=0, relwidth=1, relheight=1)
-        imglbl.grid(row = 3 , column = 0)
-
+        
         login_label = tk.Label(self.mainframe, text="This is Login Page")
         login_label.grid(row=0, column=0)
 
@@ -312,11 +307,7 @@ class Teacher_Page_Login(tk.Frame):
 
         # The Design Aspect of the frame
 
-        img = ImageTk.PhotoImage(Image.open("../favicon/logo.png"))
-        imglbl = tk.Label(self.mainframe , image = img)
-        imglbl.image = img
-        #imglbl.place(x=0, y=0, relwidth=1, relheight=1)
-        imglbl.grid(row = 4 , column = 0)
+        
 
         lbl = tk.Label(self.mainframe, text="TEACHER'S PAGE",font=("Ubuntu", 14, ''))
         lbl.grid(row=0, column=0, sticky='nsew')
